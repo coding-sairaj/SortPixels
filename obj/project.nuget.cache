@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "b1z479h2g5JaV0Z/W2f28VgEabz0U/z185jFV999BD3LvD7WGwsXtzhJpoKUMokPk0jLVRfFheSy1xHVKcDQkA==",
+  "success": true,
+  "projectFilePath": "/Users/sairajkondu/Coding/projects/Tecan/SortingColor/SortPixels/SortPixels.csproj",
+  "expectedPackageFiles": [
+    "/Users/sairajkondu/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/sairajkondu/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/sairajkondu/.nuget/packages/swashbuckle.aspnetcore/6.3.1/swashbuckle.aspnetcore.6.3.1.nupkg.sha512",
+    "/Users/sairajkondu/.nuget/packages/swashbuckle.aspnetcore.swagger/6.3.1/swashbuckle.aspnetcore.swagger.6.3.1.nupkg.sha512",
+    "/Users/sairajkondu/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.3.1/swashbuckle.aspnetcore.swaggergen.6.3.1.nupkg.sha512",
+    "/Users/sairajkondu/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.3.1/swashbuckle.aspnetcore.swaggerui.6.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}

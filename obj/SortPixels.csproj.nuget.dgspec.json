@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sairajkondu/Coding/projects/Tecan/SortingColor/SortPixels/SortPixels.csproj": {}
+  },
+  "projects": {
+    "/Users/sairajkondu/Coding/projects/Tecan/SortingColor/SortPixels/SortPixels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sairajkondu/Coding/projects/Tecan/SortingColor/SortPixels/SortPixels.csproj",
+        "projectName": "SortPixels",
+        "projectPath": "/Users/sairajkondu/Coding/projects/Tecan/SortingColor/SortPixels/SortPixels.csproj",
+        "packagesPath": "/Users/sairajkondu/.nuget/packages/",
+        "outputPath": "/Users/sairajkondu/Coding/projects/Tecan/SortingColor/SortPixels/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sairajkondu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

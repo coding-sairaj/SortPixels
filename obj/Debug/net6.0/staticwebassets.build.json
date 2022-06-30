@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "NRlrl/Qr0NQuVkzE3XlArorNQ60oh4F6OAgZw4vcUME=",
+  "Source": "SortPixels",
+  "BasePath": "_content/SortPixels",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SortPixels/wwwroot",
+      "Source": "SortPixels",
+      "ContentRoot": "/Users/sairajkondu/Coding/projects/Tecan/SortingColor/SortPixels/wwwroot/",
+      "BasePath": "_content/SortPixels",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
