@@ -25,8 +25,15 @@ static class Extensions
         return result;
     }
 
-    public static void Sort(this List<Tuple<int, int, int>> tuples)
+    public static void RGBSort(this List<Tuple<int, int, int>> tuples)
     {
-        Array.Sort(tuples.ToArray(), new TupleComparer());
+        var helper = new SortHelper();
+        helper.SortTuple(tuples, new TupleComparer());
+    }
+
+    public static void HueSort(this List<Tuple<int, int, int>> tuples)
+    {
+        var helper = new SortHelper();
+        helper.SortTuple(tuples, new TupleHueComparer());
     }
 }

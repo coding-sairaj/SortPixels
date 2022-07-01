@@ -1,7 +1,7 @@
 namespace SortPixels.Helpers;
-public class TupleComparer : Comparer<Tuple<int, int, int>>
+public class TupleComparer : IComparer
 {
-    public override int Compare(Tuple<int, int, int> x, Tuple<int, int, int> y)
+    public int Compare(Tuple<int, int, int> x, Tuple<int, int, int> y)
     {
         int res = x.Item1.CompareTo(y.Item1);
         if (res == 0)

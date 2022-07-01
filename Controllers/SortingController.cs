@@ -11,6 +11,7 @@ public class SortingController: ControllerBase
     {
       _service = service;
     }
+    [Route("[action]")]
     [HttpPost]
     public ActionResult<int[]> SortPixels(IEnumerable<int> pixels)
     {
@@ -18,6 +19,16 @@ public class SortingController: ControllerBase
       {
         throw new ArgumentNullException(nameof(pixels));
       }
-      return Ok(_service.sortPixels(pixels.ToArray()));
+      return Ok(_service.getSortPixels(pixels.ToArray()));
+    }
+    [Route("[action]")]
+    [HttpPost]
+    public ActionResult<int[]> RandomPixels(IEnumerable<int> pixels)
+    {
+      if (pixels is null)
+      {
+        throw new ArgumentNullException(nameof(pixels));
+      }
+      return Ok(_service.getRandomPixels(pixels.ToArray()));
     }
 }
